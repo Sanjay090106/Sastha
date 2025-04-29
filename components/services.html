@@ -1,0 +1,716 @@
+<!-- Our Works Section -->
+<section id="works" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Comprehensive Services</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        From structural fabrication to decorative metalwork, we offer a wide
+          range of services to meet your specific needs.
+      </p>
+    </div>
+
+    <!-- Portfolio Filter -->
+    <div class="flex flex-wrap justify-center gap-4 mb-10">
+      <button class="filter-btn bg-primary text-white px-5 py-2 !rounded-button text-sm whitespace-nowrap" data-filter="all">All Projects</button>
+      <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 !rounded-button text-sm whitespace-nowrap hover:bg-gray-300 transition-colors" data-filter="structural">Structural</button>
+      <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 !rounded-button text-sm whitespace-nowrap hover:bg-gray-300 transition-colors" data-filter="decorative">Decorative</button>
+      <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 !rounded-button text-sm whitespace-nowrap hover:bg-gray-300 transition-colors" data-filter="industrial">Industrial</button>
+      <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 !rounded-button text-sm whitespace-nowrap hover:bg-gray-300 transition-colors" data-filter="finishing">Finishing</button>
+      <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 !rounded-button text-sm whitespace-nowrap hover:bg-gray-300 transition-colors" data-filter="processes">Processes</button>
+      <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 !rounded-button text-sm whitespace-nowrap hover:bg-gray-300 transition-colors" data-filter="specialized">Specialized</button>
+    </div>
+
+    <!-- Portfolio Grid (All Projects) -->
+    <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Initial Gallery Items -->
+      <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+        <img src="images/structural/staircase.png" alt="Spiral Staircase Project" class="w-full h-80 object-cover object-top" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+          <div class="text-center p-6">
+            <h3 class="text-white text-xl font-semibold mb-2">Spiral Staircase</h3>
+            <p class="text-gray-200 mb-4">Luxury residential project with glass and stainless steel elements</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+        <img src="images/dec/screen.png" alt="Decorative Screen Project" class="w-full h-80 object-cover object-top" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+          <div class="text-center p-6">
+            <h3 class="text-white text-xl font-semibold mb-2">Decorative Screen Partition</h3>
+            <p class="text-gray-200 mb-4">Corporate office with custom laser-cut pattern design</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+        <img src="images/structural/balustrade.png" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+          <div class="text-center p-6">
+            <h3 class="text-white text-xl font-semibold mb-2">Glass Balustrade System</h3>
+            <p class="text-gray-200 mb-4">Luxury apartment complex with seamless glass and metal design</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+        <img src="images/industry/storage.png" alt="Industrial Racks Project" class="w-full h-80 object-cover object-top" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+          <div class="text-center p-6">
+            <h3 class="text-white text-xl font-semibold mb-2">Industrial Storage System</h3>
+            <p class="text-gray-200 mb-4">Custom heavy-duty storage solution for manufacturing facility</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+        <img src="images/structural/pergola.png" alt="Pergola Project" class="w-full h-80 object-cover object-top" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+          <div class="text-center p-6">
+            <h3 class="text-white text-xl font-semibold mb-2">Contemporary Pergola</h3>
+            <p class="text-gray-200 mb-4">Custom outdoor structure for luxury residential property</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+        <img src="images/structural/gate.png" alt="Gate Project" class="w-full h-80 object-cover object-top" />
+        <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+          <div class="text-center p-6">
+            <h3 class="text-white text-xl font-semibold mb-2">Custom Entry Gate</h3>
+            <p class="text-gray-200 mb-4">Decorative security gate for private estate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Structural Projects -->
+    <div id="structural-projects" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/staircase.png" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Spiral Staircase</h3>
+              <p class="text-gray-200 mb-4">Luxury residential project with glass and stainless steel elements</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/pergola.png" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Contemporary Pergola</h3>
+              <p class="text-gray-200 mb-4">Custom outdoor structure for luxury residential property</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/balustrade.png" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Glass Balustrade System</h3>
+              <p class="text-gray-200 mb-4">Luxury apartment complex with seamless glass and metal design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/gate.png" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Entry Gate</h3>
+              <p class="text-gray-200 mb-4">Elegant design meets advanced functionality for a grand first impression</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/roof.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Architectural Roof</h3>
+              <p class="text-gray-200 mb-4">Sleek aesthetic with long-lasting performance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/awnings.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Canopy Awnings</h3>
+              <p class="text-gray-200 mb-4">Dynamic shade with a seamless modern aesthetic</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/balcony.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Cantilevered Balcony</h3>
+              <p class="text-gray-200 mb-4">Floating design that merges strength and sophistication</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/cantilever.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Gravity-Defying Cantilever</h3>
+              <p class="text-gray-200 mb-4">Precision-built extensions for standout spaces</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/grills.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Decorative Facade Grill</h3>
+              <p class="text-gray-200 mb-4">Functional airflow meets crafted design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/handrail.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Handrails</h3>
+              <p class="text-gray-200 mb-4">Safety and style in perfect balance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/pedestrian.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Walkway Bridge</h3>
+              <p class="text-gray-200 mb-4">Elevated movement with structural finesse</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/railing.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Railings</h3>
+              <p class="text-gray-200 mb-4">Durability that elevates design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative Projects -->
+    <div id="decorative-projects" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/art.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Art Installation</h3>
+              <p class="text-gray-200 mb-4">A blend of artistry and industrial design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/ceiling.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Ceiling Panels</h3>
+              <p class="text-gray-200 mb-4">Crafted geometry for modern interiors</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/clock.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Timepiece</h3>
+              <p class="text-gray-200 mb-4">Bold design that ticks with style</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/dining.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Dining</h3>
+              <p class="text-gray-200 mb-4">Functional art for stylish meals</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/lasercut.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Custom Laser-Cut</h3>
+              <p class="text-gray-200 mb-4">Detail and innovation fused in metal form</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/plate.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Decorative Metal Plate</h3>
+              <p class="text-gray-200 mb-4">Artful finishes, created for distinction</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/wallart.png" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Wall Art</h3>
+              <p class="text-gray-200 mb-4">Sculptural pieces that redefine your walls</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/screen.png" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Decorative Screen Partition</h3>
+              <p class="text-gray-200 mb-4">Intricate designs that define and divide space</p>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+
+    <!-- Industrial Projects -->
+    <div id="industrial-projects" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/industry/storage.png" alt="Industrial Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Industrial Storage System</h3>
+              <p class="text-gray-200 mb-4">Durable, structured storage for maximum utility</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/industry/safety barriers.jpeg" alt="Industrial Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Safety Barriers</h3>
+              <p class="text-gray-200 mb-4">Reliable defense for high-traffic environments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Finishing Projects -->
+    <div id="finishing-projects" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/coating.png" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Powder Coating</h3>
+              <p class="text-gray-200 mb-4">Smooth, uniform coatings for premium surfaces</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/galvanizing.png" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Galvanizing</h3>
+              <p class="text-gray-200 mb-4">Enhanced durability for industrial and architectural metalwork</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/polishing.jpg" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Polishing</h3>
+              <p class="text-gray-200 mb-4">Mirror-like finishes with flawless precision</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/spray.jpg" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Spray painting</h3>
+              <p class="text-gray-200 mb-4">Protective and aesthetic finishes for metal and beyond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Processes Projects -->
+    <div id="processes-projects" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/processes/bending.png" alt="Processes Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Sheet Metal Bending</h3>
+              <p class="text-gray-200 mb-4">Crafted consistency for premium surfaces</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/processes/welding.png" alt="Processes Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">High-Integrity Welding</h3>
+              <p class="text-gray-200 mb-4">Flawless joins for structural and visual integrity</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/processes/cad.png" alt="Processes Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">CAD Designing</h3>
+              <p class="text-gray-200 mb-4">Tailored 2D & 3D models for exact specifications</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specialized Projects -->
+    <div id="specialized-projects" class="hidden">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/special/kids.jpg" alt="Specialized Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Kids play Equipment</h3>
+              <p class="text-gray-200 mb-4">Colorful powder coated metal with UV protected acrylic panels</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/special/fountain.jpg" alt="Specialized Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Fountain works</h3>
+              <p class="text-gray-200 mb-4"> Sculpted stainless steel with mirror polish & LED highlights</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/special/gym.jpg" alt="Specialized Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Gym Equipment</h3>
+              <p class="text-gray-200 mb-4">Brushed Stainless Steel with Carbon Fiber Detailing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty State Message (Hidden by default) -->
+    <div id="empty-state" class="hidden text-center py-12">
+      <i class="ri-emotion-sad-line text-4xl text-gray-400 mb-4"></i>
+      <h3 class="text-xl font-medium text-gray-600">No projects found</h3>
+      <p class="text-gray-500">Try selecting a different category.</p>
+    </div>
+
+    <!-- Extra Gallery Items (Initially hidden, for All Projects) -->
+    <div id="more-projects" class="hidden mt-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/processes/bending.png" alt="Processes Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Sheet Metal Bending</h3>
+              <p class="text-gray-200 mb-4">Crafted consistency for premium surfaces</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/processes/welding.png" alt="Processes Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">High-Integrity Welding</h3>
+              <p class="text-gray-200 mb-4">Flawless joins for structural and visual integrity</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/special/kids.jpg" alt="Specialized Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Kids play Equipment</h3>
+              <p class="text-gray-200 mb-4">Colorful powder coated metal with UV protected acrylic panels</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/art.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Art Installation</h3>
+              <p class="text-gray-200 mb-4">A blend of artistry and industrial design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/ceiling.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Ceiling Panels</h3>
+              <p class="text-gray-200 mb-4">Crafted geometry for modern interiors</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/clock.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Timepiece</h3>
+              <p class="text-gray-200 mb-4">Bold design that ticks with style</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/dining.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Dining</h3>
+              <p class="text-gray-200 mb-4">Functional art for stylish meals</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/lasercut.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Custom Laser-Cut</h3>
+              <p class="text-gray-200 mb-4">Detail and innovation fused in metal form</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/plate.jpg" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Decorative Metal Plate</h3>
+              <p class="text-gray-200 mb-4">Artful finishes, created for distinction</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/dec/wallart.png" alt="Decorative Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Wall Art</h3>
+              <p class="text-gray-200 mb-4">Sculptural pieces that redefine your walls</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/processes/cad.png" alt="Processes Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">CAD Designing</h3>
+              <p class="text-gray-200 mb-4">Tailored 2D & 3D models for exact specifications</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/special/fountain.jpg" alt="Specialized Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Fountain works</h3>
+              <p class="text-gray-200 mb-4"> Sculpted stainless steel with mirror polish & LED highlights</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/special/gym.jpg" alt="Specialized Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Gym Equipment</h3>
+              <p class="text-gray-200 mb-4">Brushed Stainless Steel with Carbon Fiber Detailing</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/coating.png" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Powder Coating</h3>
+              <p class="text-gray-200 mb-4">Smooth, uniform coatings for premium surfaces</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/galvanizing.png" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Galvanizing</h3>
+              <p class="text-gray-200 mb-4">Enhanced durability for industrial and architectural metalwork</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/polishing.jpg" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Polishing</h3>
+              <p class="text-gray-200 mb-4">Mirror-like finishes with flawless precision</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/finishing/spray.jpg" alt="Finishing Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Spray painting</h3>
+              <p class="text-gray-200 mb-4">Protective and aesthetic finishes for metal and beyond</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/industry/safety barriers.jpeg" alt="Industrial Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Safety Barriers</h3>
+              <p class="text-gray-200 mb-4">Reliable defense for high-traffic environments</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/roof.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Architectural Roof</h3>
+              <p class="text-gray-200 mb-4">Sleek aesthetic with long-lasting performance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/awnings.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Canopy Awnings</h3>
+              <p class="text-gray-200 mb-4">Dynamic shade with a seamless modern aesthetic</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/balcony.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Cantilevered Balcony</h3>
+              <p class="text-gray-200 mb-4">Floating design that merges strength and sophistication</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/cantilever.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Gravity-Defying Cantilever</h3>
+              <p class="text-gray-200 mb-4">Precision-built extensions for standout spaces</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/grills.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Decorative Facade Grill</h3>
+              <p class="text-gray-200 mb-4">Functional airflow meets crafted design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/handrail.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Handrails</h3>
+              <p class="text-gray-200 mb-4">Safety and style in perfect balance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/pedestrian.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Walkway Bridge</h3>
+              <p class="text-gray-200 mb-4">Elevated movement with structural finesse</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item relative overflow-hidden rounded-lg shadow-md">
+          <img src="images/structural/railing.jpg" alt="Balustrade Project" class="w-full h-80 object-cover object-top" />
+          <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="text-center p-6">
+              <h3 class="text-white text-xl font-semibold mb-2">Metal Railings</h3>
+              <p class="text-gray-200 mb-4">Durability that elevates design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View All Button -->
+    <div class="mt-10 text-center">
+      <a href="javascript:void(0);" id="view-all-btn" class="bg-primary text-white px-8 py-3 !rounded-button inline-block whitespace-nowrap hover:bg-opacity-90 transition-colors">
+        View All Projects
+      </a>
+    </div>
+  </div>
+</section>
